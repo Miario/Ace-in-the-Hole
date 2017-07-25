@@ -6,11 +6,14 @@
         <nav>
             <div class="navbar" id="navTop">
                 <h1>Title (h1)</h1>
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <div class="float">
+                <a href="#">Home</a>
+                <a href="#">Events</a>
+                <a href="#">Registration</a>
+                <a href="#">Volunteer</a>
+                <a href="#">Faq</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
             </div>
         </nav>
 

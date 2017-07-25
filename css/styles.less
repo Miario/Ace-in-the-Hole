@@ -12,9 +12,13 @@ body {
     overflow: hidden;
 }
 
+.float {
+  float: right;
+}
+
 .navbar a {
-    float: right;
-    display: block;
+    float: left;
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -59,7 +63,11 @@ footer {
     max-width: 1320px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 620px) {
+    nav h1 {
+      display: none;
+
+    }
     .navbar a {
         display: none;
     }
@@ -85,7 +93,7 @@ footer {
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 620px) {
     img {
         background-color: grey;
         width: 1320px;
