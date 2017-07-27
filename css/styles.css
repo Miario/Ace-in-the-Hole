@@ -2,13 +2,19 @@
 body {
   font-family: Tahoma, sans-serif;
 }
+.hero-image {
+  background-color: #808080;
+}
 .navbar {
   background-color: #333333;
   overflow: hidden;
 }
-.navbar a {
+.float {
   float: right;
-  display: block;
+}
+.navbar a {
+  float: left;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -46,7 +52,13 @@ footer {
   margin-right: auto;
   max-width: 1320px;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 620px) {
+  .float {
+    float: none;
+  }
+  nav h1 {
+    display: none;
+  }
   .navbar a {
     display: none;
   }
@@ -71,7 +83,7 @@ footer {
     display: none;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 620px) {
   img {
     background-color: grey;
     width: 1320px;

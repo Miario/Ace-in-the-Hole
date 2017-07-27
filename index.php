@@ -3,21 +3,19 @@
 <body>
     <div class="container">
 
-        <nav>
-            <div class="navbar" id="navTop">
-                <h1>Title (h1)</h1>
-                <div class="float">
+        <nav class="navbar" id="navTop">
+            <h1>Title (h1)</h1>
+            <div class="float">
                 <a href="#">Home</a>
                 <a href="#">Events</a>
                 <a href="#">Registration</a>
                 <a href="#">Volunteer</a>
                 <a href="#">Faq</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                </div>
             </div>
         </nav>
 
-        <img src="" alt="Hero Image Goes Here">
+        <img class="hero-image" src="" alt="Hero Image Goes Here">
 
         <main>
             <h2>Subheading (h2)</h2>
@@ -29,4 +27,3 @@
 
         </main>
         <?php include 'footer.php'; ?>
-
