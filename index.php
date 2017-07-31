@@ -1,7 +1,6 @@
 <?php include 'header.php'; ?>
 
-<body>
-    <div class="container">
+<body class="container">
 
         <nav class="navbar" id="navTop">
             <h1>Title (h1)</h1>
