@@ -1,28 +1,31 @@
 <?php include 'header.php'; ?>
 
-<body class="container">
+<body>
 
-        <nav class="navbar" id="navTop">
-            <h1>Title (h1)</h1>
-            <div class="float">
-                <a href="#">Home</a>
-                <a href="#">Events</a>
-                <a href="#">Registration</a>
-                <a href="#">Volunteer</a>
-                <a href="#">Faq</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-            </div>
-        </nav>
+    <nav class="navbar" id="navTop">
+        <h1>Title (h1)</h1>
+        <div id="float">
+            <a href="#">Home</a>
+            <a href="#">Events</a>
+            <a href="#">Registration</a>
+            <a href="#">Volunteer</a>
+            <a href="#">Faq</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </nav>
 
-        <img class="hero-image" src="" alt="Hero Image Goes Here">
+    <section>
+        <p> Hero Image goes here.</p>
+    </section>
+    
+    <main>
 
-        <main>
-            <h2>Subheading (h2)</h2>
+        <h2>Subheading (h2)</h2>
 
-            <p> Paragraph text</p>
+        <p> Paragraph text</p>
 
-            <p> Content, images, information will be here inside Divs and sections.</p>
+        <p> Content, images, information will be here inside Divs and sections.</p>
 
 
-        </main>
+    </main>
         <?php include 'footer.php'; ?>
