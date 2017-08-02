@@ -5,9 +5,18 @@ body {
   margin-right: auto;
   max-width: 1320px;
 }
+h2 {
+  color: #f2f2f2;
+  background-color: red;
+  padding: 10px 0 10px 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 .navbar {
   background-color: #333333;
   overflow: hidden;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 #float {
   float: right;
@@ -24,6 +33,7 @@ body {
 .navbar a:hover {
   background-color: lightgrey;
   color: black;
+  margin-top: 1px;
 }
 .navbar .icon {
   display: none;
@@ -33,23 +43,22 @@ nav h1 {
   margin-bottom: 0px;
   float: left;
   padding: 14px 16px;
-  color: white;
+  color: #f2f2f2;
 }
 main {
   background-color: aliceblue;
   height: 500px;
-  margin-bottom: 20px;
 }
 section {
   background-color: #808080;
-  width: 1320px;
+  width: 1318px;
   height: 500px;
   border: 1px solid #808080;
 }
 footer {
   background-color: #333333;
   height: 200px;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
 }
 @media screen and (max-width: 620px) {
@@ -81,13 +90,5 @@ footer {
   }
   section {
     display: none;
-  }
-}
-@media (min-width: 620px) {
-  section {
-    background-color: #808080;
-    width: 1320px;
-    height: 500px;
-    border: 1px solid #808080;
   }
 }

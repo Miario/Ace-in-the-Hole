@@ -1,8 +1,8 @@
-@fontcolor1: red;
+@color1: red;
 @fontcolorhead: lightgrey;
 @fontcolormain: aliceblue;
 @fontcolordark: #333;
-@lightcolor: white;
+@lightcolor: #f2f2f2;
 
 body {
     font-family: Tahoma, sans-serif;
@@ -11,9 +11,19 @@ body {
     max-width: 1320px;
 }
 
+h2 {
+    color: @lightcolor;
+    background-color: @color1;
+    padding: 10px 0 10px 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 .navbar {
     background-color: @fontcolordark;
     overflow: hidden;
+    padding-top: 5px;
+    padding-right: 5px;
 }
 
 #float {
@@ -23,7 +33,7 @@ body {
 .navbar a {
     float: left;
     display: inline-block;
-    color: #f2f2f2;
+    color: @lightcolor;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,6 +43,7 @@ body {
 .navbar a:hover {
     background-color: @fontcolorhead;
     color: black;
+    margin-top: 1px;
 }
 
 .navbar .icon {
@@ -44,19 +55,18 @@ nav h1 {
     margin-bottom: 0px;
     float: left;
     padding: 14px 16px;
-    color: white;
+    color: @lightcolor;
 }
 
 
 main {
     background-color: @fontcolormain;
     height: 500px;
-    margin-bottom: 20px;
 }
 
 section {
     background-color: #808080;
-    width: 1320px;
+    width: 1318px;
     height: 500px;
     border: 1px solid #808080;
 }
@@ -64,7 +74,7 @@ section {
 footer {
     background-color: @fontcolordark;
     height: 200px;
-    color: white;
+    color: @lightcolor;
     text-align: center;
 }
 
@@ -102,12 +112,7 @@ footer {
 }
 
 @media (min-width: 620px) {
-    section {
-        background-color: #808080;
-        width: 1320px;
-        height: 500px;
-        border: 1px solid #808080;
-    }
+    
 }
 
 @media (min-width: 768px) {}
