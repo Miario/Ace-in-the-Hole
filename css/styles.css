@@ -12,6 +12,13 @@ h2 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+h3 {
+  color: red;
+  padding-left: 20px;
+}
+p {
+  padding-left: 20px;
+}
 .navbar {
   background-color: #333333;
   overflow: hidden;

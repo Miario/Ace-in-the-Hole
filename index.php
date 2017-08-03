@@ -21,8 +21,10 @@
     <main>
 
         <h2>Subheading (h2)</h2>
+        
+        <h3>Heading 3 (h3)</h3>
 
-        <p> Paragraph text</p>
+        <p>paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text paragraph text</p>
 
         <p> Content, images, information will be here inside Divs and sections.</p>
 
