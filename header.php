@@ -11,4 +11,8 @@
     <link href="css/styles.css" rel="stylesheet">
     <script src="js/script.js"></script>
 
+    <!--    styles and links for the gallery.-->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+
 </head>
