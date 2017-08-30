@@ -77,7 +77,7 @@ main {
   background-color: aliceblue;
 }
 .divider-m {
-  margin-top: 1px;
+  margin-top: 0px;
   padding-top: 9px;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
@@ -314,13 +314,13 @@ h4 {
     width: 375px;
   }
   .maincontent {
-    width: 1300px;
+    width: 1320px;
   }
   .col-lg-4 {
     max-width: 570px;
   }
 }
-@media (min-width: 1319px) {
+@media (min-width: 1320px) {
   .facebook {
     max-width: 300px;
   }
@@ -328,7 +328,7 @@ h4 {
     width: 296px;
   }
   .maincontent {
-    width: 1020px;
+    width: 1022px;
   }
   .socialmedia {
     border-left: 2px solid black;
